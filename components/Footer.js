@@ -37,6 +37,7 @@ const navigation = {
   ],
 }
 
+
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black">
@@ -45,6 +46,7 @@ export default function Footer() {
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(to_top,white,transparent)]" />
         <div className="absolute inset-0 bg-gradient-to-br from-rose-500/20 via-fuchsia-500/20 to-indigo-500/20 animate-pulse" />
       </div>
+      <h3 className="sr-only">Antenna</h3>
 
       {/* Content */}
       <div className="relative mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
